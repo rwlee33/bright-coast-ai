@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import oceanWaves from "@/assets/ocean-waves-hero.jpg";
+import oceanWaves from "@/assets/ocean-waves-loop.gif";
 import logo from "@/assets/bright-coast-logo.png";
 import ContactForm from "./ContactForm";
 

@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 40% 15%;
 
-    --primary: 205 87% 25%;
+    --primary: 214 70% 22%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 187 70% 48%;
@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    --ocean-deep: 205 87% 25%;
+    --ocean-deep: 214 70% 22%;
     --ocean-teal: 187 70% 48%;
     --ocean-light: 187 50% 85%;
     --sand: 38 45% 75%;
@@ -112,6 +112,7 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-montserrat;
+    font-weight: 700;
   }
 }
