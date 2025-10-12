@@ -36,7 +36,7 @@ const Hero = () => {
           
           {/* Headline */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-primary opacity-0 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            Bright Coast AI
+            BRIGHT COAST AI
           </h1>
           
           {/* Subtext */}
@@ -45,9 +45,9 @@ const Hero = () => {
           </p>
           
           {/* Description */}
-          <p className="text-lg md:text-xl text-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed opacity-0 animate-fade-in" style={{ animationDelay: "0.8s" }}>
+          <p className="text-base md:text-lg text-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed opacity-0 animate-fade-in" style={{ animationDelay: "0.8s" }}>
             We help forward-thinking businesses streamline operations, connect systems, and build intelligent customer experiences. 
-            From AI receptionists to end-to-end automation — we make technology effortless.
+            From AI receptionists to end-to-end automation, we make technology effortless.
           </p>
           
           {/* CTA Button */}
