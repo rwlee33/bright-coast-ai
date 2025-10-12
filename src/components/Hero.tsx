@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import oceanWaves from "@/assets/ocean-waves-loop.gif";
+import oceanWaves from "@/assets/ocean-waves-loop.webm";
 import logo from "@/assets/bright-coast-logo.png";
 import ContactForm from "./ContactForm";
 
@@ -11,14 +11,15 @@ const Hero = () => {
     <>
       <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
         {/* Animated Background */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center animate-wave"
-          style={{ 
-            backgroundImage: `url(${oceanWaves})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center"
-          }}
-        />
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src={oceanWaves} type="video/webm" />
+        </video>
         
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/30 to-background/80" />
@@ -41,7 +42,7 @@ const Hero = () => {
           
           {/* Subtext */}
           <p className="text-2xl md:text-3xl lg:text-4xl text-secondary font-medium mb-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            Automation that feels natural.
+            Automation that feels natural
           </p>
           
           {/* Description */}
